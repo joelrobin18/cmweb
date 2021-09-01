@@ -1,0 +1,366 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+.header
+{
+    background-color:rgb(8, 1, 1);
+    background-size: cover;
+    width: 1024;
+    height: 1024px;
+    padding-left: 150px;
+    padding-top: 130px;
+}
+.header1
+{
+    background-image: url("./images/slide2.jpg");
+    opacity: 50%;
+}
+body
+{
+margin: 0;
+margin-top: 0;
+}
+.club1
+{
+    font-size: 10px;
+    font-family: sans-serif;
+    padding-left: 35%;
+    color:rgb(255, 247, 247);
+    animation:glow 5s ease-in-out infinite;     
+   
+}
+
+figure 
+    {
+    animation:wobble 5s ease-in-out infinite;
+    transform-origin:center center;
+    transform-style:preserve-3d;
+  }
+
+  @keyframes wobble 
+  {
+    0%,100%
+    {
+        transform:rotate3d(1,1,0,40deg); 
+        
+    }
+    25%
+    {
+        transform:rotate3d(-1,1,0,40deg); 
+        
+    }
+    50%
+    {
+        transform:rotate3d(-1,-1,0,40deg); 
+       
+    }
+    75%
+    {
+        transform:rotate3d(1,-1,0,40deg); 
+        
+    }
+  }
+
+h1:nth-child(2)
+    {
+     transform:translateZ(5px); 
+    }
+h1:nth-child(3)
+    { 
+    transform:translateZ(10px);
+    }
+h1:nth-child(4)
+    { 
+    transform:translateZ(15px);
+    }
+h1:nth-child(5)
+    {
+    transform:translateZ(20px);
+    }
+h1:nth-child(6)
+{ 
+    transform:translateZ(25px); 
+}
+h1:nth-child(7)
+{ 
+    transform:translateZ(30px); 
+}
+h1:nth-child(8)
+{ 
+    transform:translateZ(35px); 
+}
+h1:nth-child(9)
+{ 
+    transform:translateZ(40px); 
+}
+h1:nth-child(10)
+{ 
+    transform:translateZ(45px); 
+}
+.club1
+ {
+    display:block;
+    width:100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    line-height:1.5;
+    font:900 9em 'Concert One', sans-serif;
+    text-transform:uppercase;
+    position:absolute;
+    color:#0a0a0a;
+  }
+  @keyframes glow 
+  {
+    0%,100%
+    { text-shadow:0 0 30px red;
+    colour:green; }
+    25%{ text-shadow:0 0 30px orange;
+    color:aquamarine; }
+    50%{ text-shadow:0 0 30px forestgreen;
+    color:rgb(177, 78, 124); }
+    75%{ text-shadow:0 0 30px cyan;
+    color:rgb(235, 64, 64) }
+  }
+  
+.MainBody
+{
+    background:rgb(222, 209, 235);
+    width: 1024;
+    height: 800px;
+    margin-right: 0;
+}
+.infinitum
+{
+    width: 300px;
+    height: 80px;
+    color: rgb(231, 235, 19);
+    margin-left: 612px;
+    background: rgb(58, 9, 58);
+    border: solid black ;
+    border-width: 5px;
+    font-size: 50px;
+    font-family:sans-serif;
+    animation-name: example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+.about
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:25px;
+    padding-left: 550px;
+    font-style: italic;
+    text-decoration :underline ;
+    font-size: 30px;
+}
+.about1
+{
+    width: 700px;
+    height: 512px;
+    float: left;
+    background: rgb;
+}
+.about2
+{
+    font-size:25px;
+    padding-left: 60px;
+    padding-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: yellow;
+}
+@keyframes example
+{
+0% { color: brown; background-color: white;}
+25% { color:crimson;background-color: rgb(84, 175, 148); }
+50%{ color: darkblue; background-color: rgb(34, 100, 185);}
+75%{ color:darkgreen; background-color: rgb(235, 64, 64);}
+100%{ color :darkmagenta;background-color: rgb(17, 5, 68);}
+}
+.aboutimg
+{
+    width: 700px;
+    height: 512px;
+    float: left;
+    margin-left: 100px;
+}.image
+{
+    width:512px; 
+    height: 453px;
+    padding-top:  50px;
+    padding-left: 25px;
+}
+.Mainevents
+{
+width: 100%;
+height: 400px;
+background-color: rgb(222, 209, 235);
+padding-top: 0px;
+}
+.Members
+{
+    width: 100%;
+    height: 400px;
+    padding-top: 175px;
+    background-color:white;
+}
+.second
+{
+    width: 250px;
+    height: 50px;
+    font-family: fantasy;
+    font-size: 28px;
+    margin-left: 175px;
+    padding-left: 70px;
+    background-color: yellow;
+}
+.third
+{
+    width: 250px;
+    height: 50px;
+    font-family: fantasy;
+    font-size: 28px;
+    margin-left: 175px;
+    padding-left: 70px;
+    background-color: yellow;
+}
+.Fourth
+{
+    width: 250px;
+    height: 50px;
+    font-family: fantasy;
+    font-size: 28px;
+    margin-left: 175px;
+    padding-left: 70px;
+    background-color: yellow;
+}
+.ntg
+{
+    align-content: center;
+    position: relative;
+    text-decoration: underline;
+    padding-left: 650px;
+}
+.image1
+{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    
+}
+.infinity:hover .image1
+{
+    opacity: 0.5;
+}
+.image2
+{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.Locus:hover .image2
+{
+    opacity: 0.5;
+}
+.image3
+{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    
+}
+.Speranza:hover .image3
+{
+    opacity: 0.5;
+}
+.infinity
+{
+    width: 33.33%;
+    height: 480px;
+    background-color:rgb(255, 255, 255);
+    float: left;
+}
+.Speranza
+{
+    width: 33.3%;
+    height: 480px;
+    background-color:rgb(255, 255, 255);
+    float: left;
+}
+.Locus
+{
+    width: 33.27%;
+    height: 480px;
+    background-color:rgb(255, 255, 255);
+    float: left;
+}
+.events
+{
+    width:100%;
+    height: 60px;
+    background-color: rgb(222, 209, 235);
+    margin-top: 0px;
+}
+.evn
+{
+    padding-left: 600px;
+    font-family: cursive;
+    text-decoration-color: aquamarine;
+    text-decoration: underline rgb(8, 8, 8);
+    
+}
+.eventh1
+{
+    font-size: 25px;
+    color: black;
+    padding-left: 100px;
+}
+/*.contact
+{
+width: 100%;
+height:40px;
+padding-left: 565px;
+padding-top: 5px;
+margin-top: 0px;
+background-color: rgb(241, 226, 226);
+}
+#contact1
+{
+font-family: monospace;
+}
+.contactus
+{
+    width:100%;
+    height:400px;
+    background-color:rgb(241, 226, 226);
+}*/
+footer
+{
+width: 100%;
+height: 300px;
+background-color: #2d1533;
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+.links
+{
+    color: yellow;
+    list-style: none;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.link
+{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.para
+{
+    color: yellow;
+}
