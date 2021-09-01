@@ -16,6 +16,7 @@
 .header1
 {
     background-image: url("./images/slide2.jpg");
+    background-size:cover;
     opacity: 50%;
 }
 body
